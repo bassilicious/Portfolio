@@ -11,10 +11,12 @@ h1 {
       display: flex;
       max-width: 100%;
       max-height: 300px;
+      justify-content: space-around;
+      align-items: center;
   }
   .username{
     letter-spacing: -1px;
-    max-width: 50%;
+    max-width: 40%;
     animation-duration: 15s;
     animation-name: glissement;
     animation-iteration-count: infinite;
@@ -26,6 +28,9 @@ h1 {
     max-width: 15%;
    
   }
+  .bio{
+    max-width: 50%;
+  }
   .ppic{
     
     max-width: 100%;
@@ -34,7 +39,8 @@ h1 {
   .figma_items{
     display: flex;
     padding: 25px;
-    max-width: 100%; 
+    max-width: 100%;
+    background-color: burlywood; 
   }
   .boufrght{
     max-width: 40%;
@@ -48,6 +54,7 @@ h1 {
     max-width: 40%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-width: 80%;
+    text-align: center;
   }
   hr{
     color: brown;
@@ -58,7 +65,7 @@ h1 {
   }
   .product_items{
     max-width: 40%;
-    box-shadow: rgba(121, 223, 37, 0.5) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-width: 50%;
   }
   .logo_alumni{
@@ -68,4 +75,13 @@ h1 {
     width: 500px;
     align-items: center;
     max-width: 50%;
+  }
+  .link-btn{
+    width: 200px;
+    height: 50px;
+    color: black;
+  }
+  button{
+    background-color: rgb(70, 36, 42);
+    border-radius: 8px;
   }
