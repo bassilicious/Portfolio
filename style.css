@@ -20,7 +20,11 @@ h1 {
     animation-duration: 15s;
     animation-name: glissement;
     animation-iteration-count: infinite;
+    font-size: x-large;
   
+  }
+  .font{
+   font-weight: 100;
   }
   .pic{
     margin: 20px;
@@ -38,23 +42,27 @@ h1 {
   }
   .figma_items{
     display: flex;
-    padding: 25px;
+    /*padding: 10px;*/
+    padding: 5px;
     max-width: 100%;
     background-color: burlywood; 
   }
   .boufrght{
-    max-width: 40%;
-    margin: 10px;
+    max-width: 50%;
     padding: 25px;
+    /*margin: 10px;*/
   }
   .vector{
     max-width: 100%;
   }
   .description{
-    max-width: 40%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    max-width: 80%;
-    text-align: center;
+   /* max-width: 40%;*/
+    box-shadow: rgba(20, 6, 6, 0.35) 0px 5px 15px;
+    max-width: 50%;
+    text-align: justify;
+    padding-right: 10px;
+    padding: 80px;
+    padding-top: 10px;
   }
   hr{
     color: brown;
@@ -67,21 +75,108 @@ h1 {
     max-width: 40%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-width: 50%;
+    padding: 80px;
+    padding-top: 10px;
+  }
+  .img-candy{
+    max-width: 50%;
+    padding: 50px;
+    margin: 20px;
   }
   .logo_alumni{
-    margin: 200px;
+    margin: 50px;
     padding: 20px;
     height:auto;
     width: 500px;
     align-items: center;
     max-width: 50%;
   }
+  .inter{
+    background-color: burlywood; 
+  }
+  .titre{
+    padding: 40px;
+    text-align: center;
+  }
+  .inte_img{
+      max-width: 50%;
+      margin-left: 250px;
+  }
+  .rea_front{
+    padding: 20px;
+  }
+  .inte_btn{
+    max-width: 40%;
+    align-items: center;
+    padding: 200px;
+    padding-left: 100px;
+  }
+  .integration{
+    padding: 30px;
+  }
+
+  .figma_item{
+    /*padding: 10px;
+    display: flex;*/
+    padding: 5px;
+    max-width: 100%;
+    background-color: burlywood; 
+    align-items: center;
+  }
+  .figma_itemss{
+    max-width: 100%;
+    display: flex;
+    background-color: burlywood; 
+    align-items: center;
+    margin: 20px;
+    /* 
+    max-width: 100%;
+    margin: 20px;
+    justify-content: none;
+    padding: 10px;
+    padding: 5px;*/
+  }
+  .btq_btn{
+    max-width: 40%;
+    align-items: center;
+    padding: 100px;
+    padding-left: 250px;
+  }
+  .btq_img{
+    max-width: 50%;
+    margin-right: 250px;
+  }
+  .game_img{
+    max-width: 50%;
+    margin-left: 250px;
+  }
+  .game_btn{
+    max-width: 40%;
+    align-items: center;
+    padding: 200px;
+    padding-left: 100px;
+  }
+  .projet{
+    text-align: center;
+  }
   .link-btn{
     width: 200px;
     height: 50px;
     color: black;
   }
+  .integration{
+    display: flex;
+  }
   button{
     background-color: rgb(70, 36, 42);
     border-radius: 8px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(70, 36, 42);
+    /*background-color:rgba(156, 43, 64, 0.945);*/
+  }
+  .style{
+    list-style-type: none;
   }
